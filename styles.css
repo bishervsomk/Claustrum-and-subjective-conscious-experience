@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F3F1;
+    color: #4A4540;
+}
+.nav-link {
+    transition: all 0.2s ease-in-out;
+}
+.nav-link.active {
+    background-color: #607A8D;
+    color: #FFFFFF;
+    transform: translateX(5px);
+}
+.section-card {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E0DB;
+    border-radius: 12px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+.brain-structure {
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.brain-structure:hover {
+    transform: scale(1.05);
+    filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.2));
+}
+.pathway-arrow {
+    transition: opacity 0.3s ease-in-out;
+}
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 40vh;
+    width: 80vw;
+    max-width: 600px;
+    max-height: 400px;
+}
